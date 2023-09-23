@@ -1,0 +1,50 @@
+@font-face {
+    font-family: head;
+    src: url(/Heading-Now-Variable\ \(2\).ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#loader{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(127, 141, 185);
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#loader h1{
+    color: black;
+    font-size: 150px;
+    font-stretch: expanded;
+    font-family: monospace;
+}
+#part1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    font-stretch: ultra-expanded;
+    white-space: nowrap;
+    font-family: head;
+    overflow: hidden;
+}
+#part2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(73, 72, 72);
+}
+#part1 h1{
+    font-size: 650px;
+    font-weight: 980;
+}
